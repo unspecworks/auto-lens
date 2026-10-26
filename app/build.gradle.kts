@@ -1,0 +1,34 @@
+plugins {
+    id("com.android.application")
+}
+
+android {
+    namespace = "works.unspec.autolens"
+    compileSdk = 35
+
+    defaultConfig {
+        applicationId = "works.unspec.autolens"
+        minSdk = 30
+        targetSdk = 35
+        versionCode = 1
+        versionName = "1.0.0"
+    }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+    testOptions {
+        unitTests.isIncludeAndroidResources = true
+    }
+    buildTypes {
+        release {
+            isMinifyEnabled = false
+        }
+    }
+}
+
+dependencies {
+    implementation("androidx.core:core:1.15.0")
+    testImplementation("junit:junit:4.13.2")
+    testImplementation("org.robolectric:robolectric:4.14.1")
+}

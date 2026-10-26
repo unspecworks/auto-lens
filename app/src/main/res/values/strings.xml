@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Auto Lens</string>
+    <string name="service_description">Launch the app or tap its Quick Settings tile to capture the screen once after a one-second delay and send it to Google Lens. Auto Lens does not monitor your screen, read the view hierarchy, or perform touch gestures. You can turn off accessibility access in Settings at any time.</string>
+    <string name="setup_title">Your screen.\nThrough Google Lens.</string>
+    <string name="setup_subtitle">Launch once. Capture in one second. Open Lens.</string>
+    <string name="permission_title">One-time accessibility setup</string>
+    <string name="permission_body">Auto Lens uses the screenshot feature of an accessibility service. It captures one image of your current screen only when you launch the app or tap its tile. The image may include personal information visible on screen.\n\nThe image is saved in temporary app storage and shared with Google Lens. Images processed by Lens are subject to the Google privacy policy. Auto Lens itself does not send data over the internet.\n\nIf you agree, enable Auto Lens on the next Settings screen, then return to the app. Capture will start when you return.</string>
+    <string name="permission_button">Agree and open Settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="usage_hint">To capture another app, add the Auto Lens tile using the Quick Settings editor. Launching from the home screen may capture your home screen after the one-second delay.</string>
+    <string name="restricted_hint">If access is blocked on Android 13 or later, open App info → top-right menu → Allow restricted settings.</string>
+    <string name="connection_failed">The accessibility service is not connected. Turn Auto Lens off and back on in accessibility settings, then launch the app again.</string>
+    <string name="settings_unavailable">Unable to open accessibility settings. Open Settings → Accessibility → Auto Lens and enable the service manually.</string>
+    <string name="error_title">Capture could not finish</string>
+    <string name="lens_missing">No compatible Google Lens image receiver was found. Install or update Google Lens and the Google app, then try again.</string>
+    <string name="lens_store">Install or update Google Lens</string>
+    <string name="close">Close</string>
+    <string name="capture_failed">Unable to capture the screen. Unlock your device and try again.</string>
+    <string name="secure_screen">This screen is protected by its app and cannot be captured. Try a different screen.</string>
+    <string name="capture_timeout">The capture request timed out. Please try again.</string>
+    <string name="save_failed">Unable to save the screenshot. Check the available storage on your device.</string>
+    <string name="share_failed">Unable to send the image to Google Lens. Update Google Lens and the Google app, then try again.</string>
+    <string name="store_unavailable">Unable to open the Play Store.</string>
+</resources>
